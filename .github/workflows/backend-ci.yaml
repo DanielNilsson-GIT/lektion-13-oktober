@@ -22,5 +22,5 @@ jobs:
               working-directory: WeatherAPI
               run: dotnet build
             - name: test stuff
-              working-directory: WeatherAPI
+              working-directory: WeatherAPI.Tests
               run: dotnet run test
